@@ -1,0 +1,41 @@
+@import '../../../assets/css/variables';
+.images-carousel {
+    .slick-slide img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    ul.slick-dots {
+        bottom: 0.5rem;
+
+        li {
+            button:before {
+                font-size: 7px;
+                line-height: 7px;
+                border: 2px solid #fff;
+                color: transparent;
+                border-radius: 50%;
+                width: 7px;
+                height: 7px;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                vertical-align: middle;
+                padding-top: 4px;
+                opacity: 1;
+            }
+
+            &.slick-active button:before {
+                opacity: 1;
+                color: #fff;
+            }
+        }
+    }
+}

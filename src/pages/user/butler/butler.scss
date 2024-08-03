@@ -1,0 +1,33 @@
+@import '../../../assets/css/variables';
+.butler {
+    .card {
+        .d-flex {
+            gap: 0.5rem;
+            border-radius: 5px;
+            font-size: 14px;
+
+            >img {
+                min-width: 50px;
+                width: 50px;
+                height: 50px;
+                object-fit: contain;
+
+            }
+
+            h6 {
+                color: #000;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            svg {
+
+                align-self: center;
+                min-width: 30px;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+}

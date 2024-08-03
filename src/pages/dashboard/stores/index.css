@@ -1,0 +1,67 @@
+.title-back {
+  text-decoration: none;
+  color: #000;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: start;
+  padding: 0;
+}
+.title-back h1 {
+  margin-bottom: 0;
+}
+
+span.badge {
+  display: inline;
+  background: #ededed;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  font-size: 12px;
+}
+
+span.badge.badge-success {
+color: #efd100 ;
+}
+span.badge.badge-danger {
+color: red;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background: #ededed;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
+.image input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.image .btn-outline {
+  background: #fff !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: auto;
+  display: block;
+  width: 144px;
+  font-size: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text-primary  {
+  color: #efd100 !important;
+}

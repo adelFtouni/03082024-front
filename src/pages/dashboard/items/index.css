@@ -1,0 +1,14 @@
+.ReactModal__Content.ReactModal__Content--after-open {
+    width: 70% !important;
+    min-width: 300px;
+    height: auto !important;
+  }
+  .card.login {
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }

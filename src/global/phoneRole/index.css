@@ -1,0 +1,9 @@
+.main-header{
+    background: red;
+    padding: 1rem;
+    color: white;
+}
+.containerr{
+    align-items: center;
+    display: flex;
+}

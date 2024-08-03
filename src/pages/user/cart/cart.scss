@@ -1,0 +1,17 @@
+@import '../../../assets/css/variables';
+.count {
+        align-self: center;
+        margin-left: auto;
+        border: 1px solid #efd100;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        width: 70px;
+
+    button {
+        background: transparent;
+        border: 0;
+        color: $primary;
+        flex: 1
+    }
+}

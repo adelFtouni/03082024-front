@@ -1,0 +1,129 @@
+.loginContainer, .loginContainerv2 {
+    display: block;
+    width: 500px;
+    background-color: transparent;
+    padding: 0;
+    border-radius: .5rem;
+    margin: 1rem auto;
+    max-width: calc(100% - 2rem);
+}
+
+.loginContainer * {
+    font-size: 14px;
+}
+
+.inputContainer label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.inputContainer input {
+    width: 100%;
+    background-color: #e8f0fe;
+    color: black;
+    padding: 15px;
+    border-radius: .5rem;
+    display: block;
+    margin-bottom: 3px;
+    border: 0px none;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    background-color: transparent;
+    border: 1px solid #ededed;
+    font-size: 14px;
+}
+
+.inputContainer .form-check-input,
+.inputContainer .form-check-input {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+}
+
+.loginBTN {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: .5rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: red;
+    color: white;
+    transition: all 0.4s;
+    margin-top: 20px;
+    border-color: #efd100 !important;
+    background-color: #efd100 !important;
+    height: 38px;
+    padding: 0;
+}
+
+.loginBTN:hover {
+    transition: all 0.4s;
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+}
+
+.loginContainerv2 h1 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.or {
+    display: block;
+    text-align: center;
+}
+
+.googleBTN {
+    padding: 15px;
+    width: 100%;
+    border: 0px none;
+    background-color: #6c757d;
+    border-radius: .5rem;
+    color: white;
+    transition: all 0.4s;
+    height: 38px;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.googleBTN:hover {
+    opacity: 0.9;
+    color: black;
+
+}
+
+.singupBTN {
+    color: black;
+}
+
+.singupBTN:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.notreg {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.forgetmeContainer {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.forgetmeContainer a {
+    color: black;
+}
+
+.inputContainer .form-check-input, .Signup_loginContainerv2__TPJVf .form-check-input {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+}

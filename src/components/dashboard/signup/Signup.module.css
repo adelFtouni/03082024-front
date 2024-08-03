@@ -1,0 +1,193 @@
+/*
+ Color codes
+ bg: #081621
+ bg-light: #f1f1f1
+ in-bg: #e8f0fe
+ go-bg; #797389
+ white-light: rgba(255,255,255,.5)
+*/
+
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.inputContainer{
+
+}
+
+.inputContainer label{
+    display: block;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.inputContainer input{
+    width: 100%;
+    background-color: #e8f0fe;
+    color:black;
+    padding: 15px;
+    border-radius: .5rem;
+    display: block;
+    margin-bottom: 3px;
+    border: 0px none;
+}
+
+.loginBTN{
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: .5rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: red;
+    color:white;
+    transition: all 0.4s;
+    margin-top: 20px;
+}
+
+.loginBTN:hover{
+    transition: all 0.4s;
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+}
+
+.loginContainerv2{
+    width: 500px;
+    background-color: #f1f1f1;
+    padding: 40px;
+    border-radius: .5rem;
+    margin: 30px;
+}
+.loginContainerv2 h1{
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.or{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.googleBTN{
+    padding: 15px;
+    width: 100%;
+    border: 0px none;
+    background-color: #797389;
+    border-radius: .5rem;
+    color:white;
+    transition: all 0.4s;
+}
+
+.googleBTN:hover{
+    transition: all 0.4s;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.footerContainer{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.footerContainer a{
+    color:black;
+}
+
+
+
+
+
+/* SignUp.module.css */
+
+.loginContainer {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainerv2 {
+    width: 400px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputContainer {
+    margin-bottom: 10px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.loginBTN, .googleBTN {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.googleBTN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.modalContent {
+    text-align: center;
+}
+
+.modalButtonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    display: block;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 480px) {
+    .loginContainerv2 {
+        width: 90%;
+    }
+
+    .modalContainer {
+        width: 90%;
+    }
+}

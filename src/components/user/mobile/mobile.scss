@@ -1,0 +1,25 @@
+@import '../../../assets/css/variables';
+.mobile-input {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    border: 1px solid #d0d0d0;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 14px;
+    gap: 0.5rem;
+    padding: 0.5rem;
+
+    select {
+        width: 20%;
+        min-width: 100px;
+        border: 0;
+        outline: 0;
+    }
+
+    input {
+        flex: 1;
+        border: 0;
+        outline: 0;
+    }
+}
