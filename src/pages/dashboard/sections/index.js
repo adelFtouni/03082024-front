@@ -20,12 +20,12 @@ function Sections() {
 
   useEffect(() => {
     const fetchSections = async () => {
-      const response = await axios.get('http://localhost:5000/sections/getSections');
+      const response = await axios.get('https://apishopiishop-1.onrender.com/sections/getSections');
       setSections(response.data);
     };
 
     const fetchCategories = async () => {
-      const response = await axios.get('http://localhost:5000/categories/getCategories');
+      const response = await axios.get('https://apishopiishop-1.onrender.com/categories/getCategories');
       setCategories(response.data);
     };
 
